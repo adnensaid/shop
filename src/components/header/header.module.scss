@@ -1,0 +1,26 @@
+.header{
+  min-height: 100vh;
+  background: #bfa288;
+  display: flex;
+  flex-direction: column;
+  .headerContent{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .headerImg{
+      //max-width: 0rem;
+      margin: auto 0;
+      background: #bfa288;
+      position: relative;
+      img{
+        max-width: 100%;
+      }
+      .screenImg{
+        width: 29.125%; // calc(100*1165/4000)
+        position: absolute;
+        top: 11%;
+        left: 26.6%;
+      }
+    }
+  }
+}
